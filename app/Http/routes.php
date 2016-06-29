@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/stocks', function () {
     return view('pages.stocks');
 });
+
+Route::get('/about-fond', function () {
+    return view('pages.about-fond');
+});

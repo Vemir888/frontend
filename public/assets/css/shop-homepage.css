@@ -53,3 +53,10 @@ body {
 footer {
     margin: 50px 0;
 }
+
+/*custom*/
+
+.border {
+  border-right: none !important;
+  border-left: none !important;
+}

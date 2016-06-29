@@ -14,6 +14,7 @@
 	  	<link rel="stylesheet" href="{{ url('/assets/css/bootstrap.css') }}">
 	  	<link rel="stylesheet" href="{{ url('/assets/css/bootstrap.min.css') }}">
 	  	<link rel="stylesheet" href="{{ url('/assets/css/shop-homepage.css') }}">
+	  	<link rel="stylesheet" href="{{ url('/assets/css/custom.css') }}">
 
 	    <!-- Bootstrap core CSS -->
 
