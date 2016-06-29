@@ -11,7 +11,6 @@
 
 	    <title>@yield('title')</title>
 	    
-	  	<link rel="stylesheet" href="{{ url('/assets/css/bootstrap.css') }}">
 	  	<link rel="stylesheet" href="{{ url('/assets/css/bootstrap.min.css') }}">
 	  	<link rel="stylesheet" href="{{ url('/assets/css/shop-homepage.css') }}">
 
@@ -44,9 +43,8 @@
 
     @yield('footer')
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="{{ url('/assets/js/bootstrap.js') }}"></script>
-    <script src="{{ url('/assets/js/bootstrap.min.js') }}"></script>
     <script src="{{ url('/assets/js/jquery.js') }}"></script>
+    <script src="{{ url('/assets/js/bootstrap.min.js') }}"></script>
 	
   
 </body></html>
