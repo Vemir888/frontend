@@ -10,7 +10,7 @@ body {
 
 .slide-image {
     width: 100%;
-    height: 500px !important;
+    height: 550px !important;
 }
 
 .carousel-holder {
@@ -70,4 +70,17 @@ footer {
 
 .menu {
     margin-top: 40px;
+}
+
+/*.second_logo {
+    width: 100px;
+}*/
+
+.main_page_text {
+    text-align: center;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.55);
+}
+
+.main_page_text_2 {
+    text-align: center;
 }
