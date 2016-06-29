@@ -29,12 +29,13 @@
 
 	        <div class="row">
 
-	            <div class="col-md-3">
+	            <div class="col-md-3 menu">
 	                <p class="lead"></p>
 	                <div class="list-group">
-	                    <a href="#" class="list-group-item border">Category 1</a>
-	                    <a href="#" class="list-group-item border">Category 2</a>
-	                    <a href="#" class="list-group-item border">Category 3</a>
+	                    <a href="#" class="list-group-item border">Команда</a>
+	                    <a href="#" class="list-group-item border">Попечительский совет</a>
+	                    <a href="#" class="list-group-item border">Документы</a>
+	                    <a href="#" class="list-group-item border">Отчеты</a>
 	                </div>
 	            </div>
 
@@ -43,8 +44,7 @@
 	                <div class="row carousel-holder">
 
 	                    <div class="col-md-12">
-                        	<b>О ФОНДЕ</b>
-                        	<hr>
+                        	<div class="stock_header"><b>О ФОНДЕ</b></div>
 	                    </div>
 
 	                </div>
