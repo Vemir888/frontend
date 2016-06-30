@@ -136,6 +136,13 @@
                                     <img class="slide-image" src="assets/images/slider-images/5.jpg" alt="">
                                 </div>
                             </div>
+                            <div>
+                                <div class="col-md-10 pull-left"><p>asasasjasjsj</p></div>
+                                <div class="col-md-2 pull-right">
+                                    <span class="glyphicon glyphicon-chevron-left icon"></span>
+                                    <span class="glyphicon glyphicon-chevron-right icon"></span>
+                                </div>
+                            </div>
                             <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
                                 <span class="glyphicon glyphicon-chevron-left"></span>
                             </a>

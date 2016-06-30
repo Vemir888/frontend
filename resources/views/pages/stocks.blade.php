@@ -4,13 +4,13 @@
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	    <div class="container">
 	        <!-- Brand and toggle get grouped for better mobile display -->
-	        <div class="navbar-header">
-	            
+	        <div class="col-md-2 col-md-offset-5 col-sm-2 col-sm-offset-5 col-xs-2 col-xs-offset-5">
+	        	<div class="navbar-header">
+	            	<img src="/assets/images/logo-images/MainLogo.png" class = "navbar-logo">
+	            </div>
 	        </div>
 	        <!-- Collect the nav links, forms, and other content for toggling -->
-	        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	            
-	        </div>
+	        
 	        <!-- /.navbar-collapse -->
 	    </div>
 	    <!-- /.container -->
