@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 @section('navbar')
-	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	{{--<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	    <div class="container">
 	        <!-- Brand and toggle get grouped for better mobile display -->
 	        <div class="navbar-header">
@@ -30,7 +30,7 @@
 	        <!-- /.navbar-collapse -->
 	    </div>
 	    <!-- /.container -->
-	</nav>
+	</nav>--}}
 
 @stop
 
@@ -41,7 +41,7 @@
 
         <div class="row">
 
-            <div class="col-md-2">
+            <!-- <div class="col-md-2">
                 <div class="list-group">
                     <a href="#" class="list-group-item">О ФОНДЕ</a>
                     <a href="#" class="list-group-item">АКЦИИ</a>
@@ -49,10 +49,65 @@
                     <a href="#" class="list-group-item">НУЖНА ПОМОЩЬ</a>
                     <a href="#" class="list-group-item">КОНТАКТЫ</a>
                 </div>
+            </div> -->
+            <div class="col-md-2 col-sm-2 col-xs-2">
+                <div id="wrapper" class="active">
+                  
+                  <!-- Sidebar -->
+                        <!-- Sidebar -->
+                  <div id="sidebar-wrapper">
+                  <ul id="sidebar_menu" class="sidebar-nav">
+                       <li class="sidebar-brand"><a id="menu-toggle" href="#">Menu<span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a></li>
+                  </ul>
+                    <ul class="sidebar-nav" id="sidebar">     
+                        <li data-toggle="collapse" data-target="#fond"><a>О ФОНДЕ<span class="sub_icon glyphicon glyphicon-triangle-bottom triangles"></span></a></li>
+                        <ul class="sub-menu collapse" id="fond">
+                          <li>New Service 1</li>
+                          <li>New Service 2</li>
+                          <li>New Service 3</li>
+                        </ul>
+                        <li data-toggle="collapse" data-target="#stocks"><a>АКЦИИ<span class="sub_icon glyphicon glyphicon-triangle-bottom triangles"></span></a></li>
+                        <ul class="sub-menu collapse" id="stocks">
+                          <li>New Service 1</li>
+                          <li>New Service 2</li>
+                        </ul>
+                        <li data-toggle="collapse" data-target="#help"><a>КАК ПОМОЧЬ<span class="sub_icon glyphicon glyphicon-triangle-bottom triangles"></span></a></li>
+                        <ul class="sub-menu collapse" id="help">
+                          <li>New Service 1</li>
+                          <li>New Service 2</li>
+                          <li>New Service 3</li>
+                        </ul>
+                        <li data-toggle="collapse" data-target="#need_help"><a>НУЖНА ПОМОЩЬ<span class="sub_icon glyphicon glyphicon-triangle-bottom triangles"></span></a></li>
+                        <ul class="sub-menu collapse" id="need_help">
+                          <li>New Service 1</li>
+                          <li>New Service 2</li>
+                          <li>New Service 3</li>
+                          <li>New Service 4</li>
+                        </ul>
+                        <li data-toggle="collapse" data-target="#contact"><a>КОНТАКТЫ<span class="sub_icon glyphicon glyphicon-triangle-bottom triangles"></span></a></li>
+                        <ul class="sub-menu collapse" id="contact">
+                          <li>New Service 1</li>
+                          <li>New Service 2</li>
+                          <li>New Service 3</li>
+                        </ul>
+                    </ul>
+                  </div>
+                  
+                </div>
             </div>
-
-            <div class="col-md-10">
-
+            <div class="col-md-10 col-sm-10 col-xs-10">
+                <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                       
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        {{-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> --}}
+                            <img class="navbar_logo" width="70px" height="70px" src="assets/images/logo-images/MainLogo.png">
+                        {{-- </div> --}}
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container -->
+                </nav>
                 <div class="row carousel-holder">
 
                     <div class="col-md-12">
@@ -122,10 +177,10 @@
 	        <hr>
 
 	        <!-- Footer -->
-	        <footer>
+	        <footer class="pull-right">
 	            <div class="row">
 	                <div class="col-lg-12">
-	                    <p>Copyright © Your Website 2014</p>
+	                    <p>Copyright © Your Website 2016</p>
 	                </div>
 	            </div>
 	        </footer>
