@@ -84,3 +84,7 @@ footer {
 .main_page_text_2 {
     text-align: center;
 }
+
+.navbar-logo {
+    max-height: 50px;
+}
