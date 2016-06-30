@@ -111,7 +111,7 @@
                 <div class="row carousel-holder">
 
                     <div class="col-md-12">
-                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        {{-- <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -143,7 +143,92 @@
                                 <span class="glyphicon glyphicon-chevron-right"></span>
                             </a>
                         </div>
-                    </div>
+                    </div> --}}
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                          <!-- Indicators -->
+                          {{-- <ul class="carousel-indicators">
+                            <li></li>
+                            <li></li>
+                          </ul> --}}
+
+                        
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner">
+                            <div class="item active">
+                              <img src="assets/images/slider-images/1.jpg" alt="...">
+                              <div class="carousel-caption">
+                                <h4>Все жизни имеют равные значения</h4>
+                                <div class="buttons pull-right">
+                                    <a class="slider-left" href="#carousel-example-generic" data-slide="prev">
+                                        <span class="glyphicon glyphicon-menu-left glyphicon-lg"></span>
+                                    </a>
+                                    <a class="slider-right" href="#carousel-example-generic" data-slide="next">
+                                        <span class="glyphicon glyphicon-menu-right"></span>
+                                    </a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <img src="assets/images/slider-images/2.jpg" alt="...">
+                              <div class="carousel-caption">
+                                <h4>Все жизни имеют равные значения</h4>
+                                <div class="buttons pull-right">
+                                    <a class="slider-left" href="#carousel-example-generic" data-slide="prev">
+                                        <span class="glyphicon glyphicon-menu-left glyphicon-lg"></span>
+                                    </a>
+                                    <a class="slider-right" href="#carousel-example-generic" data-slide="next">
+                                        <span class="glyphicon glyphicon-menu-right"></span>
+                                    </a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <img src="assets/images/slider-images/3.jpg" alt="...">
+                              <div class="carousel-caption">
+                                <h4>Все жизни имеют равные значения</h4>
+                                <div class="buttons pull-right">
+                                    <a class="slider-left" href="#carousel-example-generic" data-slide="prev">
+                                        <span class="glyphicon glyphicon-menu-left glyphicon-lg"></span>
+                                    </a>
+                                    <a class="slider-right" href="#carousel-example-generic" data-slide="next">
+                                        <span class="glyphicon glyphicon-menu-right"></span>
+                                    </a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <img src="assets/images/slider-images/4.jpg" alt="...">
+                              <div class="carousel-caption">
+                                <h4>Все жизни имеют равные значения</h4>
+                                <div class="buttons pull-right">
+                                    <a class="slider-left" href="#carousel-example-generic" data-slide="prev">
+                                        <span class="glyphicon glyphicon-menu-left glyphicon-lg"></span>
+                                    </a>
+                                    <a class="slider-right" href="#carousel-example-generic" data-slide="next">
+                                        <span class="glyphicon glyphicon-menu-right"></span>
+                                    </a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <img src="assets/images/slider-images/5.jpg" alt="...">
+                              <div class="carousel-caption">
+                                <h4>Все жизни имеют равные значения</h4>
+                                <div class="buttons pull-right">
+                                    <a class="slider-left" href="#carousel-example-generic" data-slide="prev">
+                                        <span class="glyphicon glyphicon-menu-left glyphicon-lg"></span>
+                                    </a>
+                                    <a class="slider-right" href="#carousel-example-generic" data-slide="next">
+                                        <span class="glyphicon glyphicon-menu-right"></span>
+                                    </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Controls -->
+                          
+                        </div>
 
                 </div>
 
