@@ -258,11 +258,6 @@ home page
         </div>
 
     </div>
-    <script type="text/javascript">
-      $('span').on('click', function() {
-        $('.menu_item').attr('href', '');
-      })
-    </script>
 @stop
 
 @section('footer')
