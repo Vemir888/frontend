@@ -234,13 +234,13 @@
 
                 <div class="row">
 
-                    <div class="col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4 col-xs-offset-4 col-xs-4">
-                    	<img class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-7 col-xs-offset-3 col-xs-7 second_logo" src="assets/images/logo-images/SecondLogo.png">
-                    	<div class="col-md-12 main_page_text">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                    	<img class="col-md-offset-5 col-md-2 col-sm-offset-5 col-sm-2 col-xs-offset-4 col-xs-4 second_logo" src="assets/images/logo-images/SecondLogo.png">
+                    	<div class="col-md-12 col-sm-12 col-xs-12 main_page_text">
 	                    	<b>ГРОЗНЫЙ</b>
 	                    	<p>-создай свой профиль-</p>
                     	</div>
-                    	<div class="col-md-12 main_page_text_2">
+                    	<div class="col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4 col-xs-offset-2 col-xs-8 main_page_text_2">
                     		<p>Только высшая цель, имеющая святые помыслы, достойна жить, рождая Великое. Имя Великому - "Грозный"</p>
                     	</div>
                     </div>

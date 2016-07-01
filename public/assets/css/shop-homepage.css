@@ -102,11 +102,12 @@ footer {
 
 .main_page_text {
     text-align: center;
-    border-bottom: 2px solid rgba(128, 128, 128, 0.55);
+    
 }
 
 .main_page_text_2 {
     text-align: center;
+    border-top: 2px solid rgba(128, 128, 128, 0.55);
 }
 
 /*********** SIDEBAR ************/
@@ -380,31 +381,137 @@ footer {
 .carousel-inner > .item > a > img {
   display: block;
   width: 100%;
-  height: 500px;
+  /*height: 500px;*/
 }
 
 /* ------------------- Carousel Styling ------------------- */
+@media(min-width: 1200px) {
+  .carousel-inner {
+    border-radius: 15px;
+    height: 450px;
+  }
 
-.carousel-inner {
-  border-radius: 15px;
-  height: 400px;
+  .carousel-caption {
+    height: 30px;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 420px;
+    z-index: 10;
+    padding: 0 0 10px 25px;
+    color: #fff;
+    text-align: left;
+  }
+  .carousel-caption h4 {
+    margin-top: 6px;
+    color: gray;
+  }
 }
 
-.carousel-caption {
-  height: 30px;
-  background-color: rgba(0,0,0,.5);
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 370px;
-  z-index: 10;
-  padding: 0 0 10px 25px;
-  color: #fff;
-  text-align: left;
+@media(min-width: 992px) and (max-width: 1200px) {
+  .carousel-inner {
+    border-radius: 15px;
+    height: 400px;
+  }
+
+  .carousel-caption {
+    height: 30px;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 370px;
+    z-index: 10;
+    padding: 0 0 10px 25px;
+    color: #fff;
+    text-align: left;
+  }
+  .carousel-caption h4 {
+    margin-top: 6px;
+    color: gray;
+  }
 }
 
-.carousel-caption h4 {
-  margin-top: 6px;
+@media(min-width: 768px) and (max-width: 992px) {
+  .carousel-inner {
+    border-radius: 15px;
+    height: 300px;
+  }
+
+  .carousel-caption {
+    height: 30px;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 270px;
+    z-index: 10;
+    padding: 0 0 10px 25px;
+    color: #fff;
+    text-align: left;
+  }
+  .carousel-caption h4 {
+    margin-top: 6px;
+    color: gray;
+  }
+}
+
+@media(min-width: 480px) and (max-width: 768px) {
+  .carousel-inner {
+    border-radius: 15px;
+    height: 200px;
+  }
+
+  .carousel-caption {
+    height: 30px;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 170px;
+    z-index: 10;
+    padding: 0 0 10px 25px;
+    color: #fff;
+    text-align: left;
+  }
+  .carousel-caption h4 { 
+    font-size: 16px;
+    margin-top: 6px;
+    color: gray;
+  }
+}
+
+@media(min-width: 320px) and (max-width: 480px) {
+  .carousel-inner {
+    border-radius: 15px;
+    height: 100px;
+  }
+
+  .carousel-caption {
+    height: 30px;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70px;
+    z-index: 10;
+    padding: 0 0 10px 25px;
+    color: #fff;
+    text-align: left;
+  }
+  .navbar_logo {
+      margin-left: 60px;
+  }
+  .carousel-caption h4 { 
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: -17px;
+    color: gray;
+  }
+}
+
+.carousel-caption .glyphicon {
   color: gray;
 }
 
