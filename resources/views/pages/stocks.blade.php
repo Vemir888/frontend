@@ -44,7 +44,7 @@
 
 	                <div class="col-sm-4 col-lg-4 col-md-4">
 	                    <div class="thumbnail">
-	                        <img src="http://placehold.it/320x150" alt="">
+	                        <img src="http://placehold.it/320x150" class="img" alt="">
 	                        <div class="caption">
 	                            <b>Lorem Ipsum</b>
 	                            <br><br>
@@ -60,7 +60,7 @@
 
 	                <div class="col-sm-4 col-lg-4 col-md-4">
 	                    <div class="thumbnail">
-	                        <img src="http://placehold.it/320x150" alt="">
+	                        <img src="http://placehold.it/320x150" class="img" alt="">
 	                        <div class="caption">
 	                            <b>Lorem Ipsum</b>
 	                            <br><br>
@@ -76,7 +76,7 @@
 
 	                <div class="col-sm-4 col-lg-4 col-md-4">
 	                    <div class="thumbnail">
-	                        <img src="http://placehold.it/320x150" alt="">
+	                        <img src="http://placehold.it/320x150" class="img" alt="">
 	                        <div class="caption">
 	                            <b>Lorem Ipsum</b>
 	                            <br><br>
@@ -92,7 +92,7 @@
 
 	                <div class="col-sm-4 col-lg-4 col-md-4">
 	                    <div class="thumbnail">
-	                        <img src="http://placehold.it/320x150" alt="">
+	                        <img src="http://placehold.it/320x150" class="img" alt="">
 	                        <div class="caption">
 	                            <b>Lorem Ipsum</b>
 	                            <br><br>
@@ -108,7 +108,7 @@
 
 	                <div class="col-sm-4 col-lg-4 col-md-4">
 	                    <div class="thumbnail">
-	                        <img src="http://placehold.it/320x150" alt="">
+	                        <img src="http://placehold.it/320x150" class="img" alt="">
 	                        <div class="caption">
 	                            <b>Lorem Ipsum</b>
 	                            <br><br>
@@ -124,7 +124,7 @@
 
 	                <div class="col-sm-4 col-lg-4 col-md-4">
 	                    <div class="thumbnail">
-	                        <img src="http://placehold.it/320x150" alt="">
+	                        <img src="http://placehold.it/320x150" class="img" alt="">
 	                        <div class="caption">
 	                            <b>Lorem Ipsum</b>
 	                            <br><br>
