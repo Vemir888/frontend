@@ -7,7 +7,9 @@
 body {
     padding-top: 70px;/**/  /*Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes.*/ 
 }
-
+ul {
+  list-style-type: none;
+}
 @media (min-width: 1200px) {
   .slide-image {
       width: 100%;
@@ -167,10 +169,10 @@ footer {
     display: block;
     float: left;
     text-decoration: none;
-    width: 200px;
+    width: 149px;
     background: #000000;
     border-top: 1px solid #373737;
-    border-bottom: 1px solid #1A1A1A;
+    border-bottom: 2px solid #1A1A1A;
     -webkit-transition: background .5s;
     -moz-transition: background .5s;
     -o-transition: background .5s;
@@ -352,14 +354,18 @@ footer {
   -ms-transition: all 1s ease;
   transition: all 1s ease;
 }
-
+#menu-toggle {
+  width: 200px !important;
+}
 .sub-menu li {
   color: white;
 }
 
 .triangles {
   border-left: 2px solid #333;
-  line-height: 35px;
+  border-bottom: 2px solid #333;
+  line-height: 31px;
+  color: white;
 }
 .navbar-logo {
     max-height: 50px;
