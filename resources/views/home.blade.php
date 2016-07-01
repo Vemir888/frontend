@@ -160,7 +160,7 @@
                                 <h4>Все жизни имеют равные значения</h4>
                                 <div class="buttons pull-right">
                                     <a class="slider-left" href="#carousel-example-generic" data-slide="prev">
-                                        <span class="glyphicon glyphicon-menu-left glyphicon-lg"></span>
+                                        <span class="glyphicon glyphicon-menu-left "></span>
                                     </a>
                                     <a class="slider-right" href="#carousel-example-generic" data-slide="next">
                                         <span class="glyphicon glyphicon-menu-right"></span>
@@ -174,7 +174,7 @@
                                 <h4>Все жизни имеют равные значения</h4>
                                 <div class="buttons pull-right">
                                     <a class="slider-left" href="#carousel-example-generic" data-slide="prev">
-                                        <span class="glyphicon glyphicon-menu-left glyphicon-lg"></span>
+                                        <span class="glyphicon glyphicon-menu-left"></span>
                                     </a>
                                     <a class="slider-right" href="#carousel-example-generic" data-slide="next">
                                         <span class="glyphicon glyphicon-menu-right"></span>
@@ -188,7 +188,7 @@
                                 <h4>Все жизни имеют равные значения</h4>
                                 <div class="buttons pull-right">
                                     <a class="slider-left" href="#carousel-example-generic" data-slide="prev">
-                                        <span class="glyphicon glyphicon-menu-left glyphicon-lg"></span>
+                                        <span class="glyphicon glyphicon-menu-left "></span>
                                     </a>
                                     <a class="slider-right" href="#carousel-example-generic" data-slide="next">
                                         <span class="glyphicon glyphicon-menu-right"></span>
@@ -202,7 +202,7 @@
                                 <h4>Все жизни имеют равные значения</h4>
                                 <div class="buttons pull-right">
                                     <a class="slider-left" href="#carousel-example-generic" data-slide="prev">
-                                        <span class="glyphicon glyphicon-menu-left glyphicon-lg"></span>
+                                        <span class="glyphicon glyphicon-menu-left "></span>
                                     </a>
                                     <a class="slider-right" href="#carousel-example-generic" data-slide="next">
                                         <span class="glyphicon glyphicon-menu-right"></span>
@@ -216,7 +216,7 @@
                                 <h4>Все жизни имеют равные значения</h4>
                                 <div class="buttons pull-right">
                                     <a class="slider-left" href="#carousel-example-generic" data-slide="prev">
-                                        <span class="glyphicon glyphicon-menu-left glyphicon-lg"></span>
+                                        <span class="glyphicon glyphicon-menu-left "></span>
                                     </a>
                                     <a class="slider-right" href="#carousel-example-generic" data-slide="next">
                                         <span class="glyphicon glyphicon-menu-right"></span>

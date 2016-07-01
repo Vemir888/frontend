@@ -26,11 +26,11 @@
 
 	        
 
-	        <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-6 col-xs-offset-3">
+	        <div class="col-xs-12 ">
 
 	            <div class="row carousel-holder">
 
-	                <div class="col-md-12">
+	                <div class="col-xs-12">
 	                	<div class="stock_header"><b>АКЦИИ</b></div>
 	                	
 	                    <p>
