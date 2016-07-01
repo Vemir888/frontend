@@ -10,7 +10,7 @@ about fond
 	        <!-- Brand and toggle get grouped for better mobile display -->
 	        <div class="col-md-2 col-md-offset-5 col-sm-2 col-sm-offset-5 col-xs-2 col-xs-offset-5">
 	        	<div class="navbar-header">
-	            	<img src="/assets/images/logo-images/MainLogo.png" class = "navbar-logo">
+	            	<img src="/assets/images/logo-images/MainLogo.png" class="navbar-logo">
 	            </div>
 	        </div>
 	        <!-- Collect the nav links, forms, and other content for toggling -->

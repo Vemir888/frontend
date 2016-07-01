@@ -66,31 +66,31 @@ home page
                        <li class="sidebar-brand"><a id="menu-toggle" href="#">Menu<span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a></li>
                   </ul>
                     <ul class="sidebar-nav" id="sidebar">     
-                        <li data-toggle="collapse" data-target="#fond"><a href="{{url('/about-fond')}}">О ФОНДЕ<span class="sub_icon glyphicon glyphicon-triangle-bottom triangles"></span></a></li>
+                        <li><a class="menu_item" href="{{url('/about-fond')}}">О ФОНДЕ</a><span data-toggle="collapse" data-target="#fond" class="sub_icon glyphicon glyphicon-triangle-bottom triangles"></span></li>
                         <ul class="sub-menu collapse" id="fond">
                           <li>New Service 1</li>
                           <li>New Service 2</li>
                           <li>New Service 3</li>
                         </ul>
-                        <li data-toggle="collapse" data-target="#stocks"><a href="{{url('/stocks')}}">АКЦИИ<span class="sub_icon glyphicon glyphicon-triangle-bottom triangles"></span></a></li>
+                        <li data-toggle="collapse" data-target="#stocks"><a class="menu_item" href="{{url('/stocks')}}">АКЦИИ</a><span class="sub_icon glyphicon glyphicon-triangle-bottom triangles"></span></li>
                         <ul class="sub-menu collapse" id="stocks">
                           <li>New Service 1</li>
                           <li>New Service 2</li>
                         </ul>
-                        <li data-toggle="collapse" data-target="#help"><a>КАК ПОМОЧЬ<span class="sub_icon glyphicon glyphicon-triangle-bottom triangles"></span></a></li>
+                        <li data-toggle="collapse" data-target="#help"><a class="menu_item">КАК ПОМОЧЬ</a><span class="sub_icon glyphicon glyphicon-triangle-bottom triangles"></span></li>
                         <ul class="sub-menu collapse" id="help">
                           <li>New Service 1</li>
                           <li>New Service 2</li>
                           <li>New Service 3</li>
                         </ul>
-                        <li data-toggle="collapse" data-target="#need_help"><a>НУЖНА ПОМОЩЬ<span class="sub_icon glyphicon glyphicon-triangle-bottom triangles"></span></a></li>
+                        <li data-toggle="collapse" data-target="#need_help"><a class="menu_item">НУЖНА ПОМОЩЬ</a><span class="sub_icon glyphicon glyphicon-triangle-bottom triangles"></span></li>
                         <ul class="sub-menu collapse" id="need_help">
                           <li>New Service 1</li>
                           <li>New Service 2</li>
                           <li>New Service 3</li>
                           <li>New Service 4</li>
                         </ul>
-                        <li data-toggle="collapse" data-target="#contact"><a>КОНТАКТЫ<span class="sub_icon glyphicon glyphicon-triangle-bottom triangles"></span></a></li>
+                        <li data-toggle="collapse" data-target="#contact"><a class="menu_item">КОНТАКТЫ</a><span class="sub_icon glyphicon glyphicon-triangle-bottom triangles"></span></li>
                         <ul class="sub-menu collapse" id="contact">
                           <li>New Service 1</li>
                           <li>New Service 2</li>
@@ -258,28 +258,33 @@ home page
         </div>
 
     </div>
+    <script type="text/javascript">
+      $('span').on('click', function() {
+        $('.menu_item').attr('href', '');
+      })
+    </script>
 @stop
 
 @section('footer')
-	    <!-- /.container -->
+      <!-- /.container -->
 
-	    <div class="container">
+      <div class="container">
 
-	        <hr>
+          <hr>
 
-	        <!-- Footer -->
-	        <footer class="pull-right">
-	            <div class="row">
-	                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-	                    <p>Copyright © Your Website 2016</p>
-	                </div>
-	            </div>
-	        </footer>
+          <!-- Footer -->
+          <footer class="pull-right">
+              <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <p>Copyright © Your Website 2016</p>
+                  </div>
+              </div>
+          </footer>
 
-	    </div>
-	    <!-- /.container -->
+      </div>
+      <!-- /.container -->
 
-	    <!-- jQuery -->
+      <!-- jQuery -->
 @stop
 
 
