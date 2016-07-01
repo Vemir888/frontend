@@ -60,13 +60,13 @@
                        <li class="sidebar-brand"><a id="menu-toggle" href="#">Menu<span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a></li>
                   </ul>
                     <ul class="sidebar-nav" id="sidebar">     
-                        <li data-toggle="collapse" data-target="#fond"><a>О ФОНДЕ<span class="sub_icon glyphicon glyphicon-triangle-bottom triangles"></span></a></li>
+                        <li data-toggle="collapse" data-target="#fond"><a href="{{url('/about-fond')}}">О ФОНДЕ<span class="sub_icon glyphicon glyphicon-triangle-bottom triangles"></span></a></li>
                         <ul class="sub-menu collapse" id="fond">
                           <li>New Service 1</li>
                           <li>New Service 2</li>
                           <li>New Service 3</li>
                         </ul>
-                        <li data-toggle="collapse" data-target="#stocks"><a>АКЦИИ<span class="sub_icon glyphicon glyphicon-triangle-bottom triangles"></span></a></li>
+                        <li data-toggle="collapse" data-target="#stocks"><a href="{{url('/stocks')}}">АКЦИИ<span class="sub_icon glyphicon glyphicon-triangle-bottom triangles"></span></a></li>
                         <ul class="sub-menu collapse" id="stocks">
                           <li>New Service 1</li>
                           <li>New Service 2</li>
