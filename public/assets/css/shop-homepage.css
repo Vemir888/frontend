@@ -147,6 +147,17 @@ footer {
     margin: 0;
     padding: 0;
 }
+
+.sidebar-nav .sub-menu {
+  padding-left: 25px;
+  overflow: hidden;
+  float: left;
+}
+
+.sidebar-nav .sub-menu li {
+  display: block;
+  float: left;
+}
 #page-content-wrapper {
     padding-left: 0;
     margin-left: 0;
@@ -171,13 +182,15 @@ footer {
     text-decoration: none;
     width: 149px;
     background: #000000;
-    border-top: 1px solid #373737;
-    border-bottom: 2px solid #1A1A1A;
+    border-bottom: 1px solid #373737;
     -webkit-transition: background .5s;
     -moz-transition: background .5s;
     -o-transition: background .5s;
     -ms-transition: background .5s;
     transition: background .5s;
+}
+#sidebar_menu li a {
+  border-bottom: none;
 }
 .sidebar_name {
     padding-top: 25px;
@@ -232,7 +245,7 @@ footer {
 {
   float:right;
   padding-right: 15px;
-  padding-top:10px;
+  padding-top:8px;
 }
 .content-header {
   height: 65px;
@@ -362,8 +375,8 @@ footer {
 }
 
 .triangles {
-  border-left: 2px solid #333;
-  border-bottom: 2px solid #333;
+  border-left: 1px solid #333;
+  border-bottom: 1px solid #333;
   line-height: 31px;
   color: white;
 }
@@ -573,7 +586,5 @@ footer {
 
 /************* END SLIDER **************/
 
-.img {
-  height: 320px !important;
-}
+
 
