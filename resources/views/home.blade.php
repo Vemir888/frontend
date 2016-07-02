@@ -244,10 +244,10 @@ home page
                     	<img class="col-md-offset-5 col-md-2 col-sm-offset-5 col-sm-2 col-xs-offset-5 col-xs-2 col-lg-2 col-lg-offset-5 second_logo" src="assets/images/logo-images/SecondLogo.png">
                     	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main_page_text">
 	                    	<b>ГРОЗНЫЙ</b>
-	                    	<p>-создай свой профиль-</p>
+	                    	<p><b>-создай свой профиль-</b></p>
                     	</div>
                     	<div class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4 col-xs-offset-2 col-xs-8 main_page_text_2">
-                    		<p>Только высшая цель, имеющая святые помыслы, достойна жить, рождая Великое. Имя Великому - "Грозный"</p>
+                    		<p><b>Только высшая цель, имеющая святые помыслы, достойна жить, рождая Великое. Имя Великому - "Грозный"</b></p>
                     	</div>
                     </div>
 
