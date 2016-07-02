@@ -6,11 +6,11 @@ about fond
 @stop
 @section('navbar')
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-	    <div class="container">
+	    <div class="container-fluid">
 	        <!-- Brand and toggle get grouped for better mobile display -->
-	        <div class="col-md-2 col-md-offset-5 col-sm-2 col-sm-offset-5 col-xs-2 col-xs-offset-5">
+	        <div class="col-lg-2 col-lg-offset-5 col-md-2 col-md-offset-5 col-sm-2 col-sm-offset-5 col-xs-2 col-xs-offset-5">
 	        	<div class="navbar-header">
-	            	<img src="/assets/images/logo-images/MainLogo.png" class="navbar-logo">
+	            	<a href="/"><img src="/assets/images/logo-images/MainLogo.png" class="navbar-logo"></a>
 	            </div>
 	        </div>
 	        <!-- Collect the nav links, forms, and other content for toggling -->
@@ -29,17 +29,17 @@ about fond
 	    
 
 	    <!-- Page Content -->
-	    <div class="container">
+	    <div class="container-fluid">
 
 	        <div class="row">
 
 	            <div class="col-md-3 menu">
 	                <p class="lead"></p>
 	                <div class="list-group">
-	                    <a href="#" class="list-group-item border">Команда</a>
-	                    <a href="#" class="list-group-item border">Попечительский совет</a>
-	                    <a href="#" class="list-group-item border">Документы</a>
-	                    <a href="#" class="list-group-item border">Отчеты</a>
+	                    <a href="#" class="list-group-item border about_links">Команда</a>
+	                    <a href="#" class="list-group-item border about_links">Попечительский совет</a>
+	                    <a href="#" class="list-group-item border about_links">Документы</a>
+	                    <a href="#" class="list-group-item border about_links">Отчеты</a>
 	                </div>
 	            </div>
 

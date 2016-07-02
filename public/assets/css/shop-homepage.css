@@ -5,7 +5,8 @@
  */
 
 body {
-    padding-top: 70px;/**/  /*Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes.*/ 
+    padding-top: 50px;/**/  /*Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes.*/ 
+    background-color: rgba(230, 230, 230, 0.55);
 }
 ul {
   list-style-type: none;
@@ -94,19 +95,20 @@ footer {
   background-color: black;
   text-align: center;
 }
-
+/*
 .navbar_logo {
   margin-left: 160px;
-}
+}*/
 /*.second_logo {
     width: 100px;
 }*/
 
 .main_page_text {
     text-align: center;
-    
 }
-
+.main_page_row {
+    margin-top: 15px;
+}
 .main_page_text_2 {
     text-align: center;
     border-top: 2px solid rgba(128, 128, 128, 0.55);
@@ -129,7 +131,7 @@ footer {
 }
 
 #sidebar-wrapper {
-    margin-left: -220px;
+    margin-left: -270px;
     left: 70px;
     width: 200px;
     background: #000;
@@ -168,9 +170,8 @@ footer {
     padding-left: 150px;
 }
 #wrapper.active #sidebar-wrapper {
-    left: 210px;
+    left: 260px;
 }
-
 #page-content-wrapper {
   width: 100%;
 }
@@ -224,6 +225,7 @@ footer {
   height: 65px;
   line-height: 60px;
   font-size: 18px;
+  margin-left: 40px;
 }
 
 .sidebar-nav > .sidebar-brand a {
@@ -237,9 +239,11 @@ footer {
 
 #main_icon
 {
+  position: fixed;
+  left: -10px;
   float:right;
   padding-right: 15px;
-  padding-top:20px;
+  padding-top:15px;
 }
 .sub_icon
 {
@@ -271,7 +275,7 @@ footer {
         padding-left: 150px;
     }
     #wrapper.active #sidebar-wrapper {
-        left: 210px;
+        left: 260px;
         width: 200px;
         transition: all .4s ease 0s;
     }
@@ -426,6 +430,11 @@ footer {
     margin-top: 6px;
     color: gray;
   }
+  .buttons {
+    position: absolute;
+      right: 0;
+      top: 7px;
+  }
 }
 
 @media(min-width: 992px) and (max-width: 1200px) {
@@ -450,6 +459,11 @@ footer {
     margin-top: 6px;
     color: gray;
   }
+  .buttons {
+    position: absolute;
+      right: 0;
+      top: 7px;
+  }
 }
 
 @media(min-width: 768px) and (max-width: 992px) {
@@ -473,6 +487,11 @@ footer {
   .carousel-caption h4 {
     margin-top: 6px;
     color: gray;
+  }
+  .buttons {
+    position: absolute;
+      right: 0;
+      top: 7px;
   }
 }
 
@@ -499,34 +518,53 @@ footer {
     margin-top: 6px;
     color: gray;
   }
+  .buttons {
+    position: absolute;
+      right: 0;
+      top: 7px;
+  }
 }
 
-@media(min-width: 320px) and (max-width: 480px) {
+@media(min-width: 319px) and (max-width: 480px) {
+  .main_cont {
+    padding: 0;
+  }
+  .home_page {
+    padding: 0;
+  }
+  .slider_carousel {
+    padding: 0;
+  }
   .carousel-inner {
     border-radius: 15px;
-    height: 100px;
+    height: 160px;
   }
 
   .carousel-caption {
-    height: 30px;
+    height: 15px;
     background-color: rgba(0,0,0,.5);
     position: absolute;
     left: 0;
     right: 0;
-    top: 70px;
+    top: 145px;
     z-index: 10;
     padding: 0 0 10px 25px;
     color: #fff;
     text-align: left;
   }
-  .navbar_logo {
+  /*.navbar_logo {
       margin-left: 60px;
-  }
+  }*/
   .carousel-caption h4 { 
-    font-size: 10px;
-    margin-top: 10px;
+    font-size: 8px;
+    margin-top: 4px;
     margin-left: -17px;
     color: gray;
+  }
+  .buttons {
+    position: absolute;
+      right: 0;
+      top: -2px;
   }
 }
 
@@ -551,11 +589,7 @@ footer {
   width: 20px;
 }*/
 
-.buttons {
-  position: absolute;
-    right: 0;
-    top: 7px;
-}
+
 /* ------------------- Section Styling - Not needed for carousel styling ------------------- */
 
 /*.section-white {
@@ -586,5 +620,7 @@ footer {
 
 /************* END SLIDER **************/
 
-
+.about_links {
+  background-color: transparent;
+}
 
