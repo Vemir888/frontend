@@ -25,7 +25,7 @@
 
 
 @section('content')
-	<div class="container-fluid">
+	<div class="container-fluid stocks_cont">
 
 	    <div class="row">
 

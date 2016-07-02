@@ -29,7 +29,7 @@ about fond
 	    
 
 	    <!-- Page Content -->
-	    <div class="container-fluid">
+	    <div class="container-fluid about_cont">
 
 	        <div class="row">
 
